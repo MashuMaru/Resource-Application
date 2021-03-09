@@ -3,6 +3,7 @@
       <LearningResource
         v-for="res in resources"
         v-bind:key="res.id"
+        v-bind:id="res.id"
         v-bind:title="res.title"
         v-bind:description="res.description"
         v-bind:link="res.link"

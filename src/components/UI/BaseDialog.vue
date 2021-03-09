@@ -1,4 +1,4 @@
-<template>
+<template teleport to="body">
   <div v-on:click="$emit('close')"></div>
   <dialog open>
     <header>
